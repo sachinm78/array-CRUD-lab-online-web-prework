@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  
+  Droids = ["R2D2", "BB-8", "C3PO", "Chopper"]
 end
 
 def add_element_to_end_of_array(array, element)
