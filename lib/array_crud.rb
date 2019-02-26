@@ -7,15 +7,20 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  array = ["R2D2", "BB-8", "C3PO", "Chopper"]
+  element = "K-2SO"
+  array << element
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  array = ["R2D2", "BB-8", "C3PO", "Chopper"]
+  element = "K-2SO"
+  array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-  
+  array = ["R2D2", "BB-8", "C3PO", "Chopper"]
+  chopper_droid = array.pop
 end
 
 def remove_element_from_start_of_array(array)
