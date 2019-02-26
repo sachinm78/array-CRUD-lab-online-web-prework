@@ -24,7 +24,8 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-  
+  array = ["R2D2", "BB-8", "C3PO", "Chopper"]
+  r2d2_droid = array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
